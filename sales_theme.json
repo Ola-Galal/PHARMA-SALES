@@ -1,0 +1,88 @@
+{
+  "name": "Corporate Sales Dashboard",
+  "dataColors": [
+    "#1F4E79",
+    "#F1C232",
+    "#6AA84F",
+    "#FF6F61",
+    "#76A5AF",
+    "#B4A7D6",
+    "#A64D79",
+    "#4F81BD"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#333333",
+  "tableAccent": "#1F4E79",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "color": {
+          "solid": {
+            "color": "#333333"
+          }
+        }
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F4E79"
+              }
+            },
+            "fontSize": 14
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6B6B6B"
+              }
+            },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold",
+            "color": {
+              "solid": {
+                "color": "#1F4E79"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F4E79"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "titleText": {
+      "*": {
+        "color": {
+          "solid": {
+            "color": "#1F4E79"
+          }
+        },
+        "fontSize": 16,
+        "fontFamily": "Segoe UI Semibold"
+      }
+    }
+  }
+}
